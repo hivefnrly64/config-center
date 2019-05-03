@@ -1,0 +1,14 @@
+spring: 
+  profiles: 
+    active: 
+      - dev
+---
+spring: 
+  profiles: dev
+    application: 
+      name: haha-dev
+---
+spring: 
+  profiles: dev
+    application: 
+      name: haha-test
